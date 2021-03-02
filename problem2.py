@@ -13,7 +13,7 @@ assert hypotenuse(12,5,False) == 13
 assert hypotenuse(5,3,True) == 4
 (2 points)
 """
-
+import math
 def hypotenuse (a,b,c):
     if c == True:
         x = sqrt(a**2 + b**2)
