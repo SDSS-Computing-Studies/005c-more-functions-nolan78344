@@ -12,4 +12,11 @@ Sample assertions:
 assert convertTemp(10,'C') == 50
 assert converTemp(32,'F') == 0
 """
+def celsius(a):
+    celsius = (a * 1.8) + 32
+    return a
 
+
+def fahrenheit(x):
+    fahrenheit = (x - 32) * (5/9)
+    return x
